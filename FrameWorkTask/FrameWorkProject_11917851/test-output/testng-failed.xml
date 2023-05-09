@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/vadla/Desktop/Java/FrameWorkProject_11917851/src/test/java/org/example(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="Url" value="https://cloud.google.com/products/calculator"/>
+    <classes>
+      <class name="org.example.CloudPageTest">
+        <methods>
+          <include name="drivercode"/>
+          <include name="openbrowser"/>
+          <include name="VmString"/>
+          <include name="CheckData"/>
+        </methods>
+      </class> <!-- org.example.CloudPageTest -->
+    </classes>
+  </test> <!-- C:/Users/vadla/Desktop/Java/FrameWorkProject_11917851/src/test/java/org/example(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
